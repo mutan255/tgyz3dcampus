@@ -1,2 +1,1 @@
-# tgyz3dcampus
-A 3D campus website project for Tanggu No.1 Senior High.
+# 塘沽一中 3D 导览项目
