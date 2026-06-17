@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="塘沽一中校园3D导览项目 - 献礼塘沽一中80周年华诞">
+    <title>塘沽一中校园3D导览</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+    <main class="frontpage">
+        <header class="hero-section">
+            <img src="./src/tgyzlogo.png" alt="塘沽一中校徽" class="school-logo">
+            <h1 class="school-name">塘沽一中</h1>
+            <p class="school-motto">至 诚 至 善</p>
+            <h2 class="project-title">塘沽一中校园 3D 导览项目</h2>
+            <p class="project-subtitle">献礼塘沽一中 80 周年华诞</p>
+            
+            <button class="enter-button" onclick="enter3DView()">
+                <span class="button-text">由此开启</span>
+            </button>
+            
+            <div class="scroll-hint">
+                <span class="hint-text">向下探索塘沽一中故事...</span>
+                <div class="scroll-icon"></div>
+            </div>
+        </header>
+
+        <section class="stories-section">
+            <div class="stories-card card-link">
+                <a href="school-history.html" class="card-link-inner">
+                    <h3>学校简介</h3>
+                    <p>天津市滨海新区塘沽第一中学，始建于1946年，是一所具有深厚历史底蕴和优良传统的重点中学。八十年来，学校秉承"至诚至善"的校训，培养了无数优秀人才。</p>
+                    <span class="read-more">了解更多 →</span>
+                </a>
+            </div>
+            <div class="stories-card card-link">
+                <a href="campus-culture.html" class="card-link-inner">
+                    <h3>校园文化</h3>
+                    <p>学校注重学生全面发展，形成了丰富多彩的校园文化活动。科技节、艺术节、体育节等活动精彩纷呈，为学生提供了展示才华的舞台。</p>
+                    <span class="read-more">了解更多 →</span>
+                </a>
+            </div>
+            <div class="stories-card">
+                <h3>辉煌成就</h3>
+                <p>多年来，学校在教育教学方面取得了优异成绩，高考升学率始终位居天津市前列，培养了大批考入清华、北大等名校的优秀学子。</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="footer-preface">
+        <h2>接下来，你将为塘沽一中书写新的篇章……</h2>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="./src/tgyzlogo.png" alt="校徽">
+                    <span>塘沽一中</span>
+                </div>
+                <p class="footer-motto">至诚至善</p>
+            </div>
+            <div class="footer-center">
+                <p>© 2026 塘沽一中校园3D导览项目</p>
+                <p>献礼塘沽一中八十周年华诞</p>
+            </div>
+            <div class="footer-right">
+                <div class="developer-info">
+                    <span class="dev-label">开发者</span>
+                    <span class="dev-name">塘沽一中学生团队</span>
+                </div>
+                <div class="contact-info">
+                    <span>联系邮箱: tgyz@example.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>本项目仅供校园文化展示使用</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
